@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {AiFillGithub, AiFillMail, AiFillLinkedin} from "react-icons/ai"
 import emailjs from 'emailjs-com';
 
@@ -9,7 +9,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
+  const [showNotification, setShowNotification] = useState(false);
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -27,7 +27,13 @@ const Contact = () => {
       .send(serviceId, templateId, formData, userId)
       .then((response) => {
         console.log("Email sent successfully:", response);
+        setShowNotification(true);
+
+        setTimeout(() => {
+          setShowNotification(false);
+        }, 3000);
       })
+
       .catch((error) => {
         console.error("Email sending failed:", error);
       });
@@ -48,7 +54,7 @@ const Contact = () => {
       </p>
       {/* social icons */}
       <div className="flex text-teal-400 ">
-        <a href="https://www.linkedin.com/in/joshua-harris-321a24190/" className="transition-transform transform hover:scale-110 " target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/ishita-sharma-270883200/" className="transition-transform transform hover:scale-110 " target="_blank" rel="noreferrer">
           <AiFillLinkedin size={40}/>
         </a>
         <a className="ml-4 transition-transform transform hover:scale-110 " href="https://github.com/ishita1432"  target="_blank" rel="noreferrer">
@@ -62,12 +68,17 @@ const Contact = () => {
         {/* form */}
         <div className="md:w-1/2">
             <p className="mt-16 text-teal-400 text-2xl mb-6">Contact me, let's make magic together</p>
-            <form onSubmit={handleSubmit}>
+            {showNotification && (
+          <div className="bg-success text-white py-2 px-4 rounded">
+            Email sent successfully!
+          </div>
+        )}
+            <form onSubmit={handleSubmit} className="text-white">
                 <input type="text" name="name" placeholder="Name:" value={formData.name}
               onChange={handleChange} className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded "/>
                 <input type="email" name="email" placeholder="Email:" value={formData.email}
               onChange={handleChange} className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"/>
-                <textarea name="message" id="message" cols="54" rows="4" value={formData.message}
+                <textarea name="message" id="message" cols="54" rows="4" value={formData.message} 
               onChange={handleChange} className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-2" placeholder="Message:"></textarea>
                 <button className="btn transition-all duration-500 bg-black text-teal-400 border-2 border-teal-400 py-2 px-12 rounded  hover:bg-teal-400 hover:text-black hover:border-teal-400 block" >
                   Send

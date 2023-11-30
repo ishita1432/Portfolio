@@ -38,7 +38,7 @@ const NavBar = () => {
                 <a href="#projects">Projects</a>
               </li>
               <li className="rounded-full text-teal-500 hover:bg-teal-500 hover:text-black">
-                <a href="contact">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -75,7 +75,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn border-2 border-teal-400 bg-black text-teal-400 hover:bg-teal-400 hover:text-black hover:border-teal-400">
+          <a href="Ishita-Sharma-FlowCV-Resume.pdf" target="_blank" className="btn border-2 border-teal-400 bg-black text-teal-400 hover:bg-teal-400 hover:text-black hover:border-teal-400">
             Resume
           </a>
         </div>

@@ -5,7 +5,7 @@ const Hero = () => {
     <section id="hero" className="bg-black text-white py-10 lg:py-20 px-4 md:px-0">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8 flex flex-col lg:text-left text-center leading-relaxed">
-          <h1 className="text-4xl md:text-white  lg:mb-4 font-bold leading-tight">
+          <h1 className="text-4xl md:text-5xl md:text-white  lg:mb-4 font-bold leading-tight">
             Hi <span class="wave">👋</span>
           </h1>
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">I'm{" "}

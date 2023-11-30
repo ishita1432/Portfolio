@@ -8,7 +8,7 @@ const Projects = () => {
       img: "data.png",
       title: "Data Science Salary Trend",
       desc: " A Tableau dashboard illustrating data science salary trends, highlighting factors such as experience, location, and industry variations for comprehensive insights. ",
-      live: "https://public.tableau.com/app/profile/ishita.sharma7620/viz/Datasciencejobsalaries_16935291280440/DatasciencejobsalariesDashboard",
+      live: "https://public.tableau.com/views/Dashboardondatasciencejobsalaries/DatasciencejobsalariesDashboard?:language=en-US&:display_count=n&:origin=viz_share_link",
       code: "https://github.com/ishita1432/EDA-on-Data-Science-Job-Salaries",
     },
     {

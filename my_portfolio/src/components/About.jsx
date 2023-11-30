@@ -1,23 +1,24 @@
 import React from "react";
-// Replace with the actual path to your image
 
 const About = () => {
   return (
-    <section id="about" className=" lg:ml-50 container flex justify-center mx-auto px-10 py-5">
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 md:pr-8 text-center md:text-left">
-          <h2 className="text-4xl font-bold text-center text-accent pb-5">About Me</h2>
-          <p className="text-lg text-white">
-            I am a web developer with a passion for building beautiful and functional websites and web applications. I have experience with a variety of technologies, including ReactJS, Tailwind CSS, and Node.js. I am also skilled in Git and GitHub. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt harum soluta reiciendis ea, dolores nam quibusdam, possimus, voluptatibus enim magnam iure. Maiores, sint nulla! Modi ratione molestiae unde corporis laudantium.
+    <div id="about" className="container mx-auto lg:mx-40  pt-10 lg:pt-40 text-justify overflow-hidden">
+      <div className="flex flex-col-reverse items-center  md:flex-row">
+        <div className="md:w-5/6 md:pr-8 mx-auto md:mx-15 p-5">
+          <h2 className="text-2xl md:text-4xl font-bold text-center text-accent mb-5">About Me</h2>
+          <p className="text-lg text-white ">
+I'm Ishita Sharma – a tech enthusiast with a knack for making computers do cool stuff. I'm your go-to person for all things machine learning and web development. When I'm not training AI models, I'm busy building sleek websites with React.js and Tailwind CSS. 💻 I'm decent in data structures and algorithms, adding a touch of practicality to my coding adventures. 🚀</p>
+
+<p className="text-lg text-white ">✨ Whether it's making machines smarter or building user-friendly websites, I bring a mix of creativity and practicality to the digital playground.
           </p>
         </div>
-        <div className="md:w-1/2 md:ml-30 text-center">
-          <div className="w-40 h-40 rounded-full bg-teal-500 overflow-hidden mx-auto md:mx-0">
-            <img src="ishi_bitmoji.png" alt="My Image" className="object-cover w-full h-full" />
+        <div className="md:w-1/2 mt-8 mb-3 md:mb-0 md:mt-0 px-20 ">
+          <div className="md:w-40 md:h-40 rounded-full bg-teal-500 overflow-hidden ">
+            <img src="ishi_bitmoji.png" alt="My Image" className="object-cover w-33 h-33 lg:w-full lg:h-full" />
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

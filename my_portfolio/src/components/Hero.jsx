@@ -14,7 +14,7 @@ const Hero = () => {
           <p className=" text-md lg:text-lg mb-6 leading-relaxed">
             Passionate about building websites and exploring AI. Let's create a tech-driven future together.
           </p>
-          <div className="flex flex-row md:flex-row gap-4  items-center">
+          <div className="flex flex-row md:flex-row mx-auto lg:mx-0 gap-6 lg:gap-4    items-center">
             <Link
               to="contact" smooth={true} duration={800}
               className="btn bg-black border-teal-400 text-teal-400 border-2 py-2   md:mb-0 md:mr-2 hover:bg-teal-400 hover:text-black hover:border-teal-400 rounded text-md"

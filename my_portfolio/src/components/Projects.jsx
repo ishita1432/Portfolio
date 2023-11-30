@@ -8,22 +8,22 @@ const Projects = () => {
       img: "data.png",
       title: "Data Science Salary Trend",
       desc: " A Tableau dashboard illustrating data science salary trends, highlighting factors such as experience, location, and industry variations for comprehensive insights. ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      live: "https://public.tableau.com/app/profile/ishita.sharma7620/viz/Datasciencejobsalaries_16935291280440/DatasciencejobsalariesDashboard",
+      code: "https://github.com/ishita1432/EDA-on-Data-Science-Job-Salaries",
     },
     {
       img: "couture.png",
       title: "Couture",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
+      desc: "A responsive couture website made with HTML,CSS,Bootstrap and Django",
+      live: "http://coutures.pythonanywhere.com/",
       code: "https://github.com/ishita1432/Couture",
     },
     {
       img: "image_captioning.png",
       title: "Image captioning",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
+      desc: "A streamlit app that automatically generates captions for the images",
+      live: "https://huggingface.co/spaces/ishi1234/IMAGE-CAPTIONING",
+      code: "https://github.com/ishita1432/Image-captioning-using-transformers",
     },
     
   ]; 
@@ -36,10 +36,7 @@ const Projects = () => {
             Projects
           </h2>
 
-          <p className="pb-5">
-            These are some of my best projects. I have built these with React,
-            MERN and vanilla CSS. Check them out.
-          </p>
+          
         </div>
 
         <div className="about-img"></div>
@@ -59,13 +56,13 @@ const Projects = () => {
                 <div className="mx-auto">
                   <a
                     href={project.live}
-                    className="px-3 py-1 md:py-2 bg-teal-400 text-black mr-5 font-bold"
+                    className="px-3 py-1 md:py-2 bg-teal-400 text-black mr-5 font-bold" target='_blank'
                   >
                     Live
                   </a>
                   <a
                     href={project.code}
-                    className="px-3 py-1 md:py-2 bg-teal-400  text-black mr-5 font-bold">
+                    className="px-3 py-1 md:py-2 bg-teal-400  text-black mr-5 font-bold" target='_blank'>
                   
                     Code
                   </a>

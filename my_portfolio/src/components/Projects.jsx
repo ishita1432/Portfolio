@@ -29,13 +29,13 @@ const Projects = () => {
   ]; 
 
   return (
-    <section className=" text-white px-5 py-32" id="projects">
+    <section className=" text-white px-5 py-32 " id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
-        <div className="about-info mb-5">
+        <div className="about-info  mb-5">
           <h2 className="text-4xl text-teal-400 font-bold mb-5  pb-2">
             Projects
           </h2>
-
+<p>These are some of my best projects.</p>
           
         </div>
 
@@ -49,7 +49,7 @@ const Projects = () => {
               <img src={project.img} alt={project.title} className='w-full h-full' />
               <div className="flex absolute left-0 right-0 top-0 bottom-0 mx-auto border-2 px-3 bg-black border-teal-400  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <h4 className=' font-bold text-lg px-2 text-teal-400'>{project.title}</h4>
-                <p className="py-3 px-2 mb-2 text-white text-sm">
+                <p className="py-3 lg:py-2 px-2 mb-2 lg:mb-5 text-white text-sm">
                   {project.desc}
                 </p>
 

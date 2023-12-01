@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div id="about" className="container mx-auto  pt-10 lg:pt-40 text-justify overflow-hidden">
-      <div className="flex flex-col-reverse items-center  md:flex-row ps-40">
+      <div className="flex flex-col-reverse items-center  md:flex-row lg:ps-40">
         <div className="md:w-5/6 md:pr-8 mx-auto md:mx-15 p-5">
           <h2 className="text-2xl md:text-4xl font-bold text-center text-accent mb-5">About Me</h2>
           <p className="text-lg text-white ">
@@ -12,9 +12,9 @@ I'm Ishita Sharma – a tech enthusiast with a knack for making computers do coo
 <p className="text-lg text-white ">✨ Whether it's making machines smarter or building user-friendly websites, I bring a mix of creativity and practicality to the digital playground.
           </p>
         </div>
-        <div className="md:w-1/2 mt-8 mb-3 md:mb-0 md:mt-0  ">
-          <div className="md:w-40 md:h-40 rounded-full bg-teal-500 overflow-hidden ">
-            <img src="ishi_bitmoji.png" alt="My Image" className="object-cover w-33 h-33 lg:w-full lg:h-full" />
+        <div className="md:w-1/2 mt-8 mb-3 md:mb-0 md:mt-0 lg:ps-10 ">
+          <div className="w-40 h-40 rounded-full bg-teal-500 overflow-hidden ">
+            <img src="ishi_bitmoji.png" alt="My Image" className="object-cover w-full h-full" />
           </div>
         </div>
       </div>

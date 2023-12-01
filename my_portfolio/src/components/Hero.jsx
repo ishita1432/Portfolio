@@ -11,7 +11,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">I'm{" "}
             <span className="text-teal-400">I</span>shita Sharma
             <br /></h1>
-          <p className=" text-md lg:text-lg mb-6 leading-relaxed">
+          <p className=" text-md lg:text-lg mb-6 leading-relaxed p-2 lg:p-0">
             Passionate about building websites and exploring AI. Let's create a tech-driven future together.
           </p>
           <div className="flex flex-row md:flex-row mx-auto lg:mx-0 gap-6 lg:gap-4    items-center">

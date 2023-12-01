@@ -56,8 +56,8 @@ const skills = [
 ];
 
 const SkillCard = ({ name, logo }) => (
-  <div className="p-6 lg:p-10 lg:w-full h-50  ">
-    <div className="bg-white/20 rounded-lg  shadow-lg lg:p-1 p-2  transition-transform transform hover:scale-110 h-full">
+  <div className="p-6 lg:p-10 lg:w-full h-50 ">
+    <div className="bg-white/10 rounded-lg  shadow-lg lg:p-1 p-2  transition-transform transform hover:scale-110 h-full">
       <img src={logo} alt={name} className="w-12 h-10 mx-auto mb-2 mt-5 " />
       <h3 className="text-md font-semibold  text-white text-center">{name}</h3>
     </div>
@@ -65,7 +65,7 @@ const SkillCard = ({ name, logo }) => (
 );
 
 const Skills = () => (
-  <section id="skills" className=" py-30 lg:py-40">
+  <section id="skills" className=" py-40 lg:py-40">
     <div className="container mx-auto lg:px-10">
       <h2 className="text-4xl font-semibold text-center text-accent mb-4">Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6  gap-3">

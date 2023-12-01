@@ -5,7 +5,7 @@ import {Link} from "react-scroll";
 const NavBar = () => {
   return (
     <>
-      <div className="fixed top-0 z-10 navbar bg-black shadow-lg bg-fixed">
+      <div className="fixed top-0 z-10 navbar bg-black shadow-lg ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -65,7 +65,7 @@ const SkillCard = ({ name, logo }) => (
 );
 
 const Skills = () => (
-  <section id="skills" className=" pt-40 md:py-20">
+  <section id="skills" className=" pt-40 md:py-30">
     <div className="container mx-auto">
       <h2 className="text-4xl font-semibold text-center text-accent mb-4">Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6  gap-3">

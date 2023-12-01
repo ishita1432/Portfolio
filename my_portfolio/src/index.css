@@ -6,17 +6,15 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  width: 100%;
+ 
   
 }
 
 body {
   background-color: black;
+  
 }
 
-.menu-horizontal {
-  font-size: 90;
-}
 
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */

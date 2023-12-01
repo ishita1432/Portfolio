@@ -42,7 +42,9 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <h1 className="text-white text-4xl font-bold">ishita<span className="text-accent">.</span></h1>
+          <h1 className="btn bg-black border-0 hover:bg-inherit text-white ps-5 text-4xl font-bold"><Link to="hero" smooth={true} duration={500}>
+          ishita<span className="text-accent">.</span>
+              </Link></h1>
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal font-extrabold text-md">

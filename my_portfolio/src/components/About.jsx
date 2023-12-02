@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="container mx-auto  pt-10 lg:pt-40 text-justify overflow-hidden">
       <div className="flex flex-col-reverse items-center  md:flex-row lg:ps-40">
         <div className="md:w-5/6 md:pr-8 mx-auto md:mx-15 p-5">
-          <h2 className="text-2xl md:text-4xl font-bold text-center  text-accent mb-5">About Me</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-center  text-teal-400 mb-5">About Me</h2>
           <p className="text-lg text-white ">
 I'm Ishita Sharma – a tech enthusiast with a knack for making computers do cool stuff. I'm your go-to person for all things machine learning and web development. When I'm not training AI models, I'm busy building sleek websites with React.js and Tailwind CSS. 💻 I'm decent in data structures and algorithms, adding a touch of practicality to my coding adventures. 🚀</p>
 

@@ -2,6 +2,7 @@ import React from "react";
 import "../index.css";
 import {Link} from "react-scroll";
 
+
 const NavBar = () => {
   return (
     <>
@@ -28,7 +29,7 @@ const NavBar = () => {
               <li className="rounded-full text-teal-500 hover:bg-teal-500 hover:text-black">
                 <a href="#hero">Home</a>
               </li>
-              <li className="rounded-full text-teal-500 hover:bg-teal-500 hover:text-black">
+              <li className="rounded-full text-teal-500 hover:bg-teal-500 hover:text-black ">
                 <a href="#about">About</a>
               </li>
               <li className="rounded-full text-teal-500 hover:bg-teal-500 hover:text-black">
@@ -47,7 +48,7 @@ const NavBar = () => {
               </Link></h1>
         </div>
         <div className="navbar-center hidden lg:flex ">
-          <ul className="menu menu-horizontal font-extrabold text-md">
+          <ul className="menu menu-horizontal font-extrabold text-base">
           <li className="rounded-lg text-teal-500 hover:bg-teal-500 hover:text-black">
               <Link to="hero" smooth={true} duration={500}>
                 Home

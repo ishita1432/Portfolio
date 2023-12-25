@@ -78,7 +78,7 @@ const Contact = () => {
               onChange={handleChange} className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded "/>
                 <input type="email" name="email" placeholder="Email:" value={formData.email}
               onChange={handleChange} className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded my-3"/>
-                <textarea name="message" id="message" cols="54" rows="4" value={formData.message} 
+                <textarea  name="message" id="message" cols="54" rows="4" value={formData.message} 
               onChange={handleChange} className="bg-[#F5F5F5] bg-opacity-10 py-3 px-3 md:w-3/4 w-full rounded mb-2" placeholder="Message:"></textarea>
                 <button className="btn transition-all duration-500 bg-black text-teal-400 border-2 border-teal-400 py-2 px-12 rounded  hover:bg-teal-400 hover:text-black hover:border-teal-400 block" >
                   Send

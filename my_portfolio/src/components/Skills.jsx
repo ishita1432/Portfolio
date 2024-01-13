@@ -65,10 +65,10 @@ const SkillCard = ({ name, logo }) => (
 );
 
 const Skills = () => (
-  <section id="skills" className=" py-40 lg:py-40">
+  <section id="skills" className=" py-30 md:py-20">
     <div className="container mx-auto lg:px-10">
       <h2 className="text-4xl font-semibold text-center text-accent mb-4">Skills</h2>
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6  gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6  gap-3">
         {skills.map((skill, index) => (
           <SkillCard key={index} name={skill.name} logo={skill.logo} />
         ))}

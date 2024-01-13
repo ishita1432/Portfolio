@@ -29,7 +29,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="md:w-1/2 w-full">
+        <div className="md:w-1/2 xl:w-1/2 w-full">
           <img
             className="object-cover object-center rounded-md shadow-md"
             alt="hero"
